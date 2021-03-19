@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: garamond;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243,243,243);
+    display: flex;
+    justify-content: center;
+}
+.colunas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.esquerda{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+.esquerda img{
+    height: 50rem;
+}
+.grupo1{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    padding: 1.3rem 0;
+}
+.logo{
+    align-self: center;    
+}
+.login{
+    color: darkgray;
+    margin: 20px 20px 10px 20px;
+}
+.usuario{
+    border: 1px solid;
+    padding: 5px;
+    background-color: rgb(243,243,243);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.senha{
+    border: 1px solid;
+    padding: 5px;
+    background-color: rgb(243,243,243);
+    border-radius: 5px;
+      
+}
+.acesso, .acesso a{
+    padding: 5px;
+    background-color: rgb(178,223,252);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+.outro{
+    text-align: center;
+    margin-top: 10px;
+    color: darkgray;
+    font-weight: 600;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.facebook a{
+    color: #3b5998;
+    font-weight: 600;
+}
+
+.facebook img{
+    height: 30px;
+}
+.forgot, .forgot a{
+    text-align: center;
+    color: #3b5998;
+    font-size: 12px;
+}
+.sem-conta{
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.sem-conta a{
+    font-weight: 600;
+    color: rgb(0,149,246);
+}
+.aplicativo{
+    flex-direction: column;
+    padding: 1.3rem 0;
+}
+.aplicativo p{
+    text-align: center;
+}
+.download{
+    display: flex;
+    padding: 1rem;
+}
+.app-down{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.app-down:nth-child(1) {
+    background-image: url('./IMG/apple-button.png');
+    margin-right: 5px;
+}
+
+.app-down:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
+
+@media (max-width: 1024px) {
+    .colunas {
+        width: 70%;
+    }
+}
+
+@media (max-width: 875px) {
+    .body {
+        background-color: #ffffff;
+    }
+
+    .colunas {
+        width: 90%;
+    }
+
+    .esquerda {
+        display: none;
+    }
+
+    .direita {
+        width: 100%;
+    }
+    
+    .grupo1 {
+        border: 1px solid transparent;
+    }
+}
